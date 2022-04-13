@@ -1,0 +1,35 @@
+{
+  "name": "@kamidere/typeguard",
+  "version": "0.0.1",
+  "description": "typeguard",
+  "main": "dist/main.js",
+  "type": "module",
+  "repository": "https://github.com/Kamidere-Laboratory/typeguard",
+  "author": "Kamide.re Laboratory",
+  "license": "MIT",
+  "private": false,
+  "keywords": [],
+  "scripts": {
+    "start:dev": "NODE_ENV=development node --loader ts-node/esm --no-warnings src/main.ts",
+    "build": "rimraf ./dist && tsc -p ./tsconfig.json",
+    "eslint": "eslint --ext .ts"
+  },
+  "dependencies": {
+    "zod": "^3.14.3",
+    "zod-fast-check": "^0.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "prettier": "^2.6.1",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3"
+  }
+}

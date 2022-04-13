@@ -1,0 +1,25 @@
+# Ignore all top level files and folders
+/*
+
+# Husky
+!.husky/
+
+!src/
+!tests/
+!.editorconfig
+!.eslintrc.cjs
+!.gitattributes
+!.gitignore
+!.gitlab-ci.yml
+!.prettierrc
+!package.json
+!package-lock.json
+!README.md
+!LICENSE
+!redis.conf
+
+# Typescript
+!tsconfig.json
+
+# Vscode
+!.vscode/
