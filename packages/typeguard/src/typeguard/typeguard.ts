@@ -13,4 +13,9 @@ export class TypeGuard<T extends ZodSchema> {
 
     throw new TypeGuardAssertionError(parserd.error);
   }
+
+  is(value: unknown): value is ZodInfer<T> {
+    const parsed = this.schema.safeParse(value);
+    return parsed.success;
+  }
 }
