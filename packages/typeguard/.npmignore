@@ -1,0 +1,9 @@
+# Ignore all top level files and folders
+/*
+
+
+!dist/
+!package.json
+!package-lock.json
+!README.md
+!LICENSE

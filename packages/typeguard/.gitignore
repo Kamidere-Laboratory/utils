@@ -17,9 +17,12 @@
 !README.md
 !LICENSE
 !redis.conf
+!.npmignore
+!/templates
 
 # Typescript
 !tsconfig.json
+!tsconfig.cjs.json
 
 # Vscode
 !.vscode/

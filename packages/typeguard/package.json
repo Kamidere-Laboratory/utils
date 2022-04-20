@@ -1,22 +1,40 @@
 {
   "name": "@kamidere/typeguard",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "typeguard",
-  "main": "dist/main.js",
+  "main": "dist/esm/main.js",
   "type": "module",
-  "repository": "https://github.com/Kamidere-Laboratory/typeguard",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/main.js",
+      "require": "./dist/cjs/main.js",
+      "types": "./dist/types/main.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "package-lock.json",
+    "LICENSE"
+
+  ],
+  "types": "./dist/types/main.d.ts",
+  "repository": "https://github.com/Kamidere-Laboratory/utils/",
   "author": "Kamide.re Laboratory",
+  "contributors": [
+    {"name": "Robert \"RunAge\" Gajda", "url": "https://github.com/RunAge"},
+    {"name": "Bartosz \"hendas\" Marciniec", "url": "https://github.com/hendas"}
+  ],
   "license": "MIT",
   "private": false,
   "keywords": [],
   "scripts": {
     "start:dev": "NODE_ENV=development node --loader ts-node/esm --no-warnings src/main.ts",
-    "build": "rimraf ./dist && tsc -p ./tsconfig.json",
+    "build": "rimraf ./dist && tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && cp ./templates/cjs.json ./dist/cjs/package.json",
     "eslint": "eslint --ext .ts"
   },
   "dependencies": {
-    "zod": "^3.14.3",
-    "zod-fast-check": "^0.5.0"
+    "zod": "^3.14.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
