@@ -1,6 +1,6 @@
 {
   "name": "@kamidere/typeguard",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "typeguard",
   "main": "dist/esm/main.js",
   "type": "module",
@@ -33,8 +33,8 @@
     "build": "rimraf ./dist && tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && cp ./templates/cjs.json ./dist/cjs/package.json",
     "eslint": "eslint --ext .ts"
   },
-  "dependencies": {
-    "zod": "^3.14.3"
+  "peerDependencies": {
+    "zod": ">=3.14.3"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
