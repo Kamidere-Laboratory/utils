@@ -1,6 +1,6 @@
 {
   "name": "@kamidere/typeguard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "typeguard",
   "main": "dist/esm/main.js",
   "type": "module",
@@ -16,14 +16,19 @@
     "package.json",
     "package-lock.json",
     "LICENSE"
-
   ],
   "types": "./dist/types/main.d.ts",
   "repository": "https://github.com/Kamidere-Laboratory/utils/",
   "author": "Kamide.re Laboratory",
   "contributors": [
-    {"name": "Robert \"RunAge\" Gajda", "url": "https://github.com/RunAge"},
-    {"name": "Bartosz \"hendas\" Marciniec", "url": "https://github.com/hendas"}
+    {
+      "name": "Robert \"RunAge\" Gajda",
+      "url": "https://github.com/RunAge"
+    },
+    {
+      "name": "Bartosz \"hendas\" Marciniec",
+      "url": "https://github.com/hendas"
+    }
   ],
   "license": "MIT",
   "private": false,
