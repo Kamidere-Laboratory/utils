@@ -1,0 +1,19 @@
+# Ignore all top level files and folders
+/*
+
+# Husky
+!.husky/
+
+!packages/
+!.editorconfig
+!.gitignore
+!.gitlab-ci.yml
+!package.json
+!package-lock.json
+!README.md
+!LICENSE
+!lerna.json
+!commitlint.config.js
+
+# Vscode
+!.vscode/
