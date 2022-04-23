@@ -29,6 +29,7 @@
   "private": false,
   "keywords": [],
   "scripts": {
+    "test": "ava",
     "start:dev": "NODE_ENV=development node --loader ts-node/esm --no-warnings src/main.ts",
     "build": "rimraf ./dist && tsc -p ./tsconfig.json && tsc -p ./tsconfig.cjs.json && cp ./templates/cjs.json ./dist/cjs/package.json",
     "eslint": "eslint --ext .ts"
@@ -49,5 +50,24 @@
     "rimraf": "^3.0.2",
     "ts-node": "^10.7.0",
     "typescript": "^4.6.3"
+  },
+  "ava": {
+    "files": [
+      "tests/**/*.test.ts"
+    ],
+    "failFast": false,
+    "failWithoutAssertions": true,
+    "extensions": {
+      "ts": "module"
+    },
+    "environmentVariables": {
+      "NODE_ENV": "test"
+    },
+    "nodeArguments": [
+      "--loader=ts-node/esm",
+      "--no-warnings"
+    ],
+    "tap": true,
+    "verbose": false
   }
 }
