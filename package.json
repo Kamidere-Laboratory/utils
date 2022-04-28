@@ -15,6 +15,7 @@
     }
   },
   "scripts": {
-    "commit": "cz"
+    "commit": "cz",
+    "prepack": "lerna run test --since && lerna run build --since --include-dependencies"
   }
 }
