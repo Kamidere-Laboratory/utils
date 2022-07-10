@@ -1,7 +1,7 @@
 # Ignore all top level files and folders
 /*
 
-!index.js
+!index.json
 !.gitattributes
 !.gitignore
 !package.json
