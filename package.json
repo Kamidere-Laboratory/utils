@@ -2,12 +2,12 @@
   "name": "@kamidere/utils",
   "private": false,
   "devDependencies": {
-    "@commitlint/cli": "^16.2.3",
-    "@commitlint/config-conventional": "^16.2.1",
-    "ava": "^4.2.0",
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "ava": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^7.0.4",
-    "lerna": "^4.0.0"
+    "husky": "^8.0.1",
+    "lerna": "^5.1.8"
   },
   "config": {
     "commitizen": {
