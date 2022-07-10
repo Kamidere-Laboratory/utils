@@ -1,0 +1,11 @@
+# Ignore all top level files and folders
+/*
+
+!index.js
+!.gitattributes
+!.gitignore
+!package.json
+!package-lock.json
+!README.md
+!LICENSE
+

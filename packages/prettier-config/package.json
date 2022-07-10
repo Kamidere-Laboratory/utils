@@ -1,0 +1,29 @@
+{
+  "name": "@kamidere/prettier-config",
+  "version": "1.0.0",
+  "description": "Prettier config",
+  "main": "index.js",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "package.json",
+    "package-lock.json",
+    "LICENSE"
+  ],
+  "repository": "https://github.com/Kamidere-Laboratory/utils/",
+  "author": "Kamide.re Laboratory",
+  "contributors": [
+    {
+      "name": "Robert \"RunAge\" Gajda",
+      "url": "https://github.com/RunAge"
+    }
+  ],
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "prettier-config"
+  ],
+  "peerDependencies": {
+    "prettier": ">=2.7.1"
+  }
+}

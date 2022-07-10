@@ -1,0 +1,14 @@
+module.export = {
+  semi: true,
+  singleQuote: false,
+  quoteProps: "as-needed",
+  tabWidth: 4,
+  useTabs: false,
+  trailingComma: "all",
+  printWidth: 120,
+  bracketSameLine: true,
+  endOfLine: "lf",
+  parser: "typescript",
+  arrowParens: "always",
+  bracketSpacing: true,
+};
