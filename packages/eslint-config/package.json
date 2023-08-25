@@ -1,0 +1,43 @@
+{
+  "name": "@kamidere/eslint-config",
+  "version": "0.0.1",
+  "description": "",
+  "main": "eslintrc.cjs",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "kaimdere"
+  ],
+  "author": "Kamide.re Laboratory",
+  "contributors": [
+    {
+      "name": "Robert \"RunAge\" Gajda",
+      "url": "https://github.com/RunAge"
+    }
+  ],
+  "files": [
+    "eslintrc.cjs",
+    "package.json",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^4.0.0"
+  },
+  "packageManager": "pnpm@8.6.2"
+}
