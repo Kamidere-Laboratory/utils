@@ -19,6 +19,7 @@
 !redis.conf
 !.npmignore
 !/templates
+!CHANGELOG.md
 
 # Typescript
 !tsconfig.json

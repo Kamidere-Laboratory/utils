@@ -17,6 +17,8 @@
 !pnpm-lock.yaml
 !pnpm-workspace.yaml
 !turbo.json
+!CHANGELOG.md
+!**/CHANGELOG.md
 
 # Vscode
 !.vscode/
