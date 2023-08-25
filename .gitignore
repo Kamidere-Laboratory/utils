@@ -12,8 +12,14 @@
 !package-lock.json
 !README.md
 !LICENSE
-!lerna.json
 !commitlint.config.js
+!.changeset
+!pnpm-lock.yaml
+!pnpm-workspace.yaml
+!turbo.json
 
 # Vscode
 !.vscode/
+
+**/node_modules
+**/dist
