@@ -2,11 +2,10 @@
   "name": "@kamidere/prettier-config",
   "version": "1.0.2",
   "description": "Prettier config",
-  "main": "index.json",
+  "main": "index.cjs",
   "files": [
     "index.js",
     "package.json",
-    "package-lock.json",
     "LICENSE"
   ],
   "repository": "https://github.com/Kamidere-Laboratory/utils/",
@@ -21,8 +20,5 @@
   "private": false,
   "keywords": [
     "prettier-config"
-  ],
-  "peerDependencies": {
-    "prettier": ">=2.7.1"
-  }
+  ]
 }
